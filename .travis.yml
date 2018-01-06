@@ -10,8 +10,4 @@ script:
   - go test -race -coverprofile=coverage.txt -covermode=atomic
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t CODECOV_TOKEN
-
-env:
-  global:
-    secure: ExqXS6IijLTHBENhve6a+5tahjhqMq9jxdfEftBAnuiXFlD6KJ4DkKIziyZDwF8fpyTrxoz8ZmfA5nEEjnzllMQwysZNwvqYwYV7L5svPc65jimkpbNNqaIdOhhEPsg0HLYUjUmfba9vXYB83N4ezGSY6j45d5Z9m5BQMrWcBsdL/R0FrJhU/WwPpVKwsyIQMGw37YzwHUY5Dx2YYIWTYgRIu46TzJEn0bdSne5W1JmE3oGf+d7v6CYzaekzWJg+ExY9SLRWtY1xpUW09FAI1zAZSbGtmnxYTpM2vGzpRSaObLZPyzWzabLR8bHnG99jbIfzTR1Jgm8aFclZSRC4WaZt+AmxFkndW6gLEKsn4DeLD33+mH1B5vcPIk/icbGqqCr1JhRCms/pAbp9hWilokAOOBS3qKKJjJ+S/kdFvodRDgB1M86gvqhbD2+Sh2RaTNmKQy35gSwVgb79QioH953/MQ4ZfIZZK3EgiN9ic2bZYVm/frT4kUYPa/qTXOIcAp9HtqF5v4F7MT9XGKJt/ceEdJtFIoXwJy065tGG2L4XWW7irY+jSoEAaUdcJhMiYc6Ej0o/LirQHXY/6K4WaPejXSwiS8Q43t+10l88QzgQJ6dSV7m9RNeANMBu6H10ks+Dxs62ZDgFHFHfq+sQsE5FNvDRfmEXGCmkOf1YxhU=
+  - bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
