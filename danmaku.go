@@ -60,7 +60,7 @@ type Danmaku struct {
 	// 1 is for subtitle.
 	// 3 is for others.
 
-	// TODO: This field should be check befor burst into alpha version. See Issue #2.
+	// TODO: This field should be check before burst into alpha version. See Issue #2.
 	Pool int
 
 	// SenderID represents the sender, it is different from the global uid of the user.
