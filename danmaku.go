@@ -41,7 +41,7 @@ type Danmaku struct {
 	// 4 is the bottom danmaku.
 	// 5 is the top danmaku.
 	// 6 is the reverse direction danmaku, which goes from left to right.
-	// 7 is the located danmaku, which has an absolute postion where it should appear.
+	// 7 is the located danmaku, which has an absolute position where it should appear.
 	// 8 is the advanced danmaku
 	Mode int
 
